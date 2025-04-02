@@ -1,0 +1,26 @@
+#Theme configuration
+title-text: ""
+title-font: "Arial 14"
+message-font: "Arial 12"
+message-color: "#FFFFFF"
+message-bg-color: "#00000000"
+#terminal-left: "0"
+#terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
+# Window properties
+desktop-image: "./background/focalgrub.png"
+desktop-color: "#000000"
+desktop-font: "Arial 12"
+
+# Boot menu
+item-font: "Arial 12"
+item-color: "#FFFFFF"
+item-height: 30
+item-spacing: 5
+item-padding: 5
+item-icon-size: "24"
+selected-item-color: "#FF0000"
+selected-item-font: "Arial 12 bold"
