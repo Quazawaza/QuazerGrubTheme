@@ -11,9 +11,8 @@ terminal-height: "100%"
 terminal-border: "0"
 
 # Window properties
-desktop-image: "./background/focalgrub.png"
+desktop-image: "background/focalgrub.png"
 desktop-color: "#000000"
-desktop-font: "Arial 12"
 
 # Boot menu
 item-font: "Arial 12"
