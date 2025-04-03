@@ -1,7 +1,7 @@
 #Theme configuration
 title-text: ""
 title-font: "fonts/Rajdhani_Regular_32.pf2"
-terminal-font: ""
+terminal-font: "fonts/Rajdhani_Regular_16.pf2"
 
 # Window properties
 desktop-image: "background/focalgrub.png"
@@ -18,38 +18,51 @@ terminal-border: "0"
 	top = 8
 	width = 100%
 	align = "center"
-	color = "#c364e4"
-	text = "Quazer Grub Theme"
+	color = "#5b327d"
+	text = "Thinkpad "
 }
 
 + label {
-	font = "fonts/Rajdhani_Regular_24.pf2"
+	font = "fonts/Rajdhani_Regular_32.pf2"
 	left = 0%
-	top = 42
+	top = 64
 	width = 100%
 	align = "center"
-	color = "#e36fff"
-	text = "[Thinkpad]"
+	color = "#a250e7"
+	text = "Select OS"
 }
 
 + label {
 	font = "fonts/Rajdhani_Regular_16.pf2"
 	left = 8
-	top = 48
+	top = 8
 	width = 100%
-	color = "#c364e4"
+	color = "#372348"
 	text = "【=◈︿◈=】"
 }
+
++ image {
+	file = "assets/quazer.png"
+	top = 0
+	left = 100%-300
+}
+
++ image {
+	file = "assets/quazer2.png"
+	top = 100%-300
+	left = 300
+}
+
 
 + boot_menu {
     left = 35%
     width = 35%
-    top = 30%
+    top = 40%
     height = 40%	
     item_font = "fonts/Rajdhani_Regular_24.pf2"
     item_color = "#ed6fff"
     selected_item_font = "fonts/Rajdhani_Regular_24.pf2"
-    selected_item_color = "#ed6fff"
+    selected_item_color = "#5b327d"
     icon_width = 24
     icon_height = 24
     item_height = 35
