@@ -1,7 +1,7 @@
 #Theme configuration
 title-text: ""
-title-font: "fonts/Rajdhani_32.pf2"
-terminal-font: "fonts/Rajdhani_16.pf2"
+title-font: "fonts/Rajdhani_Regular_32.pf2"
+terminal-font: "fonts/Rajdhani_Regular_16.pf2"
 
 # Window properties
 desktop-image: "background/focalgrub.png"
@@ -13,7 +13,7 @@ terminal-height: "100%"
 terminal-border: "0"
 
 + label {
-	font = "fonts/Rajdhani_32.pf2"
+	font = "fonts/Rajdhani_Regular_32.pf2"
 	left = 0%
 	top = 8
 	width = 100%
@@ -23,7 +23,7 @@ terminal-border: "0"
 }
 
 + label {
-	font = "fonts/Rajdhani_24.pf2"
+	font = "fonts/Rajdhani_Regular_24.pf2"
 	left = 0%
 	top = 100
 	width = 100%
@@ -58,9 +58,9 @@ terminal-border: "0"
     width = 35%
     top = 40%
     height = 40%	
-    item_font = "fonts/Rajdhani_18.pf2"
+    item_font = "fonts/Rajdhani_Regular_18.pf2"
     item_color = "#ed6fff"
-    selected_item_font = "fonts/Rajdhani_18.pf2"
+    selected_item_font = "fonts/Rajdhani_Regular_18.pf2"
     selected_item_color = "#5b327d"
     icon_width = 24
     icon_height = 24
