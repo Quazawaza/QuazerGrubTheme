@@ -68,4 +68,6 @@ terminal-border: "0"
     item_padding = 20
     item_icon_space = 5
     item_spacing = 5
+	selected_item_pixmap_style = "select.png"
+
 }
