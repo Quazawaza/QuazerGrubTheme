@@ -50,7 +50,7 @@ terminal-border: "0"
 + image {
 	file = "assets/quazer2.png"
 	top = 100%-300
-	left = 300
+	left = 0
 }
 
 
@@ -69,17 +69,4 @@ terminal-border: "0"
     item_padding = 20
     item_icon_space = 5
     item_spacing = 5
-}
-
-
-+ label {
-    id = "__timeout__"
-    left = 42%
-    top = 90%
-    width = 300
-    height = 20
-    font = "Rajdhani Regular 24"
-    color = "#ed6fff"
-    align = "center"
-    text = "meow: %ds"
 }
