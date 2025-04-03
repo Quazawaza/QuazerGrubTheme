@@ -32,14 +32,6 @@ terminal-border: "0"
 	text = "Select OS"
 }
 
-+ label {
-	left = 8
-	top = 8
-	width = 100%
-	color = "#372348"
-	text = "【=◈︿◈=】"
-}
-
 + image {
 	file = "assets/quazer2.png"
 	top = 0
@@ -68,6 +60,6 @@ terminal-border: "0"
     item_padding = 20
     item_icon_space = 5
     item_spacing = 5
-	selected_item_pixmap_style = "select.png"
+	selected_item_pixmap_style = "select_*.png"
 
 }
